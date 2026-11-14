@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./img/banner.svg" alt="welcome to my dashboard" />
+  <img src="./img/banner.svg" alt="welc banner" width="100%" />
 </p>
