@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-  <img src="./img/div.svg" alt="divider" width="80%" />
+  <img src="./img/div.svg" alt="divider" width="100%" />
 </p>
