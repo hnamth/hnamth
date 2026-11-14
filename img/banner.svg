@@ -11,24 +11,24 @@
     </filter>
 
     <clipPath id="typing-clip">
-      <rect x="175" y="15" width="0" height="50">
-        <animate attributeName="width" values="0; 365; 365; 0" keyTimes="0; 0.35; 0.85; 1" dur="5.5s" repeatCount="indefinite" />
+      <rect x="155" y="12" width="0" height="55">
+        <animate attributeName="width" values="0; 410; 410; 0" keyTimes="0; 0.35; 0.85; 1" dur="5.5s" repeatCount="indefinite" />
       </rect>
     </clipPath>
   </defs>
 
   <style>
     .typing-text {
-      font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace;
-      font-size: 24px;
-      font-weight: 400; 
-      fill: #800020; 
-      letter-spacing: 0.5px;
+      font-family: 'UnifrakturMaguntia', 'Cinzel Decorative', serif;
+      font-size: 26px;
+      font-weight: 400;
+      fill: #800020; /* Warna dasar Burgundy (TETAP) */
+      letter-spacing: 1px;
     }
   </style>
 
   <g clip-path="url(#typing-clip)">
-    <text x="180" y="48" class="typing-text" filter="url(#burgundy-glow)">
+    <text x="160" y="48" class="typing-text" filter="url(#burgundy-glow)">
       welcome to my dashboard
     </text>
   </g>
