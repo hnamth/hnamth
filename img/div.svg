@@ -12,14 +12,14 @@
   </defs>
 
   <g fill="#500010" filter="url(#gothic-glow)">
-    <rect x="20" y="18" width="8" height="4" />
-    <rect x="40" y="18" width="16" height="4" />
-    <rect x="644" y="18" width="16" height="4" />
-    <rect x="672" y="18" width="8" height="4" />
-
+    <rect x="30" y="18" width="10" height="4" />
+    <rect x="50" y="18" width="20" height="4" />
+    <rect x="630" y="18" width="20" height="4" />
+    <rect x="660" y="18" width="10" height="4" />
+    
     <g>
       <rect x="100" y="16" width="500" height="8" rx="2" opacity="0.2" />
-      <path d="M 320 12 L 330 12 L 330 24 L 340 24 L 340 12 L 350 12 L 350 28 L 320 28 Z" fill="#40000d">
+      <path d="M 335 12 L 345 12 L 345 24 L 355 24 L 355 12 L 365 12 L 365 28 L 335 28 Z" fill="#40000d">
         <animate attributeName="transform" type="translate" values="0,0; 0,-3; 0,0; 0,3; 0,0" dur="3s" repeatCount="indefinite" />
       </path>
     </g>
