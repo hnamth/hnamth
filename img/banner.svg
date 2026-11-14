@@ -1,11 +1,15 @@
 <svg width="700" height="80" viewBox="0 0 700 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="burgundy-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3.5" result="blur" />
-      <feFlood flood-color="#A82046" flood-opacity="0.75" result="glowColor" />
-      <feComposite in="glowColor" in2="blur" operator="in" result="softGlow" />
+    <filter id="burgundy-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="3" result="blur2" />
+      <feFlood flood-color="#A82046" flood-opacity="0.9" result="glowColor" />
+      <feComposite in="glowColor" in2="blur1" operator="in" result="softGlow1" />
+      <feComposite in="glowColor" in2="blur2" operator="in" result="softGlow2" />
+      
       <feMerge>
-        <feMergeNode in="softGlow" />
+        <feMergeNode in="softGlow1" />
+        <feMergeNode in="softGlow2" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
@@ -20,9 +24,9 @@
   <style>
     .typing-text {
       font-family: 'UnifrakturMaguntia', 'Cinzel Decorative', serif;
-      font-size: 26px; /* Ukuran font TETAP */
+      font-size: 26px;
       font-weight: 400;
-      fill: #800020; /* Warna dasar Burgundy TETAP */
+      fill: #800020; 
       letter-spacing: 1px;
     }
   </style>
