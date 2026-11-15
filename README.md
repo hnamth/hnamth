@@ -7,3 +7,11 @@
 <p align="center">
   <img src="./img/div.svg" alt="divider" width="100%" />
 </p>
+
+## tools
+<div align="center">
+<img src="https://skillicons.dev/icons?i=blender,github,git,java,js,html,php,laravel,figma,unity" alt="tech stack" />
+</div>
+
+<br>
+<p><img src="img/window.svg" width="100%" alt="coffee n rain"></p>
