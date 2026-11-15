@@ -1,0 +1,71 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .drop { animation: fall 1.3s linear infinite; }
+    .d1 { animation-delay: 0.1s; }
+    .d2 { animation-delay: 0.4s; }
+    .d3 { animation-delay: 0.8s; }
+    .d4 { animation-delay: 0.2s; }
+    .d5 { animation-delay: 0.6s; }
+    @keyframes fall {
+      0% { transform: translate(15px, -25px); opacity: 0; }
+      20% { opacity: 0.6; }
+      80% { opacity: 0.6; }
+      100% { transform: translate(-20px, 130px); opacity: 0; }
+    }
+
+    .steam { animation: rise 3s infinite ease-in-out; opacity: 0; }
+    .s1 { animation-delay: 0s; }
+    .s2 { animation-delay: 1.5s; }
+    @keyframes rise {
+      0% { transform: translateY(4px); opacity: 0; }
+      50% { opacity: 0.7; }
+      100% { transform: translateY(-16px); opacity: 0; }
+    }
+
+    .glow-light { animation: pulse 4s infinite alternate; }
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      100% { opacity: 0.7; }
+    }
+  </style>
+
+  <rect width="800" height="200" rx="14" fill="#0d1117" />
+
+  <rect x="4" y="4" width="792" height="192" rx="11" stroke="#5c141e" stroke-width="1.5" fill="none" />
+  <rect x="8" y="8" width="784" height="184" rx="8" stroke="#3b0b12" stroke-width="1" fill="none" />
+
+  <rect x="180" y="20" width="440" height="125" fill="#120306" />
+  <circle cx="520" cy="55" r="22" fill="#7a1b28" class="glow-light" />
+
+  <g stroke="#e05263" stroke-width="1.2" stroke-linecap="round" opacity="0.8">
+    <line x1="240" y1="25" x2="234" y2="45" class="drop d1" />
+    <line x1="300" y1="20" x2="294" y2="42" class="drop d3" />
+    <line x1="360" y1="28" x2="354" y2="48" class="drop d2" />
+    <line x1="420" y1="22" x2="414" y2="40" class="drop d5" />
+    <line x1="480" y1="25" x2="474" y2="46" class="drop d4" />
+    <line x1="550" y1="20" x2="544" y2="42" class="drop d1" />
+  </g>
+
+  <rect x="176" y="16" width="448" height="133" rx="4" stroke="#3b0b12" stroke-width="6" fill="none" />
+  <line x1="400" y1="16" x2="400" y2="149" stroke="#3b0b12" stroke-width="4" />
+
+  <path d="M10 10 C40 60, 30 110, 55 160 C65 180, 80 195, 90 200 H10 Z" fill="#2a080d" />
+  <path d="M10 10 C50 70, 40 130, 70 200 H10 Z" fill="#4a0e17" opacity="0.8" />
+  <path d="M790 10 C760 60, 770 110, 745 160 C735 180, 720 195, 710 200 H790 Z" fill="#2a080d" />
+  <path d="M790 10 C750 70, 760 130, 730 200 H790 Z" fill="#4a0e17" opacity="0.8" />
+
+  <rect x="130" y="148" width="540" height="12" fill="#1f070a" rx="2" />
+  <line x1="100" y1="160" x2="700" y2="160" stroke="#5c141e" stroke-width="3" stroke-linecap="round" />
+
+  <ellipse cx="280" cy="155" rx="35" ry="4" fill="#161b22" stroke="#7a1b28" stroke-width="1" />
+  <path d="M260 153 C260 142, 300 142, 300 153 Z" fill="#7a1b28" stroke="#b31b1b" stroke-width="1" />
+
+  <path d="M480 125 H525 V148 C525 154, 518 156, 512 156 H493 C487 156, 480 154, 480 148 Z" fill="#161b22" stroke="#b31b1b" stroke-width="2" />
+  <path d="M525 130 H532 C537 130, 537 148, 532 148 H525" stroke="#b31b1b" stroke-width="1.5" fill="none" />
+  <ellipse cx="502" cy="125" rx="22" ry="3" fill="#5c141e" />
+
+  <path d="M495 118 Q490 110, 495 102" stroke="#e05263" stroke-width="1.5" stroke-linecap="round" fill="none" class="steam s1" />
+  <path d="M508 116 Q513 108, 508 100" stroke="#e05263" stroke-width="1.5" stroke-linecap="round" fill="none" class="steam s2" />
+
+  <text x="765" y="185" fill="#7a1b28" font-family="monospace" font-size="11" text-anchor="end">hnamth</text>
+</svg>
