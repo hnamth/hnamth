@@ -8,7 +8,7 @@
   <img src="./img/div.svg" alt="divider" width="100%" />
 </p>
 
-## tools
+## tech stack & tools
 <div align="center">
 <img src="https://skillicons.dev/icons?i=blender,github,git,java,js,html,php,laravel,figma,unity" alt="tech stack" />
 </div>
