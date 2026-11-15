@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/banner.png" width="500" alt="dashboard banner">
+  <img src="img/banner.png" style="width: 100%; border-radius: 5px;" alt="Banner">
 </p>
 
 <p align="center">
